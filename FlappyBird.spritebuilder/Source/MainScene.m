@@ -69,7 +69,7 @@
         
         @try
         {
-            [super touchBegan:touch withEvent:event];
+            [super touchBegan:UItouch withEvent:event];
         }
         @catch(NSException* ex)
         {
